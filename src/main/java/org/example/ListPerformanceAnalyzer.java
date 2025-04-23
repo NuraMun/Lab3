@@ -9,16 +9,12 @@ import java.util.Random;
  * Класс для сравнения производительности ArrayList и LinkedList.
  * Тестирует основные операции: добавление, удаление и получение элементов.
  */
+
 public class ListPerformanceAnalyzer {
 
     private static final int DEFAULT_TEST_SIZE = 2000;
     private static final Random random = new Random();
 
-    /**
-     * Точка входа в программу. Запускает тесты производительности и выводит результаты.
-     *
-     * @param args аргументы командной строки (не используются)
-     */
     public static void main(String[] args) {
         System.out.println("Анализ производительности ArrayList vs LinkedList");
         System.out.println("Тестовый размер: " + DEFAULT_TEST_SIZE + " операций\n");
